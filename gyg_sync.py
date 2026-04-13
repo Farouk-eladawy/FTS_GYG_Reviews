@@ -427,7 +427,7 @@ def type_like_human(locator, text, clear_first=True):
             time.sleep(random.uniform(0.15, 0.55))
     human_delay(0.5, 1.2)
 
-def click_like_human(locator):
+def click_like_human(locator, force=False):
     target = locator.first
     target.wait_for(state="visible", timeout=20000)
     try:
@@ -439,7 +439,14 @@ def click_like_human(locator):
     except:
         pass
     human_delay(0.3, 0.9)
-    target.click(delay=random.randint(50, 160))
+    try:
+        target.click(delay=random.randint(50, 160), force=force)
+    except Exception as e:
+        if "intercepts pointer events" in str(e):
+            log("Click intercepted, forcing click via JS...", "WARNING")
+            target.evaluate("el => el.click()")
+        else:
+            raise e
     human_delay(0.7, 1.6)
 
 def navigate_with_delay(page, url, min_sec=2.5, max_sec=5.5):
@@ -1183,11 +1190,11 @@ def scrape_cycle_in_session(browser, context, page, owns_browser, recreate_fresh
                     try:
                         expand_btn = card.locator('[data-testid="review-card-expand"]')
                         if expand_btn.count() > 0 and expand_btn.first.is_visible():
-                            click_like_human(expand_btn)
+                            click_like_human(expand_btn, force=True)
                         else:
                             show_details = card.locator('button:has-text("Show details")')
                             if show_details.count() > 0 and show_details.first.is_visible():
-                                click_like_human(show_details)
+                                click_like_human(show_details, force=True)
                     except Exception as e:
                         log(f"Warning: Could not expand review card {index}: {e}", "DEBUG")
 
