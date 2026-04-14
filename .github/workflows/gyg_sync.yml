@@ -2,8 +2,8 @@ name: GYG Airtable Sync
 
 on:
   schedule:
-    # Run every hour
-    - cron: '0 * * * *'
+    # Run every hour at minute 17 to avoid peak server load on the hour
+    - cron: '17 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 permissions:
