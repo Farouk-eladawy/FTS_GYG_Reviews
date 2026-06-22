@@ -1887,3 +1887,4 @@
 {"status": "success", "processed_records_estimate": 7, "errors": [], "elapsed_seconds": 236.21957278251648, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-06-22T08:25:08.585957"}
 {"status": "success", "processed_records_estimate": 3, "errors": [], "elapsed_seconds": 229.34872961044312, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-06-22T09:38:57.234474"}
 {"status": "success", "processed_records_estimate": 3, "errors": [], "elapsed_seconds": 225.17044520378113, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-06-22T10:52:46.832792"}
+{"status": "success", "processed_records_estimate": 4, "errors": [], "elapsed_seconds": 303.196405172348, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-06-22T12:07:57.612400"}
