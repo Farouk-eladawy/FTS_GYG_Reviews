@@ -1,11 +1,9 @@
 {
-  "status": "error",
+  "status": "success",
   "processed_records_estimate": 0,
-  "errors": [
-    "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://supplier.getyourguide.com/performance/reviews?page=4\", waiting until \"load\"\n"
-  ],
-  "elapsed_seconds": 244.9669635295868,
+  "errors": [],
+  "elapsed_seconds": 229.04918003082275,
   "airtable_table_name": "List",
   "account_index": 1,
-  "timestamp": "2026-07-04T15:37:45.773092"
+  "timestamp": "2026-07-04T15:47:07.529370"
 }
