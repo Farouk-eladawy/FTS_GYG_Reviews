@@ -1,9 +1,9 @@
 {
   "status": "success",
-  "processed_records_estimate": 15,
+  "processed_records_estimate": 14,
   "errors": [],
-  "elapsed_seconds": 675.2535743713379,
+  "elapsed_seconds": 308.73244857788086,
   "airtable_table_name": "List",
   "account_index": 1,
-  "timestamp": "2026-07-05T02:23:37.404655"
+  "timestamp": "2026-07-05T03:36:06.932312"
 }
