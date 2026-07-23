@@ -2618,3 +2618,4 @@
 {"status": "success", "processed_records_estimate": 5, "errors": [], "elapsed_seconds": 224.5134882926941, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-07-23T18:07:44.094049"}
 {"status": "success", "processed_records_estimate": 4, "errors": [], "elapsed_seconds": 222.25760698318481, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-07-23T18:42:42.918670"}
 {"status": "success", "processed_records_estimate": 4, "errors": [], "elapsed_seconds": 226.45793914794922, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-07-23T18:53:53.332266"}
+{"status": "error", "processed_records_estimate": 0, "errors": ["navigation_error: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://supplier.getyourguide.com/performance/reviews\", waiting until \"load\"\n"], "elapsed_seconds": 60.08113932609558, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-07-23T19:37:20.526078"}
