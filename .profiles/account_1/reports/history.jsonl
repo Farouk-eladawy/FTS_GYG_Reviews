@@ -3029,3 +3029,4 @@
 {"status": "restart", "processed_records_estimate": 0, "errors": ["Failed to recover session for page 5 after 3 attempts."], "elapsed_seconds": 547.2989928722382, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-03T04:21:18.929889"}
 {"status": "success", "processed_records_estimate": 10, "errors": [], "elapsed_seconds": 228.52620387077332, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-03T05:05:11.157996"}
 {"status": "success", "processed_records_estimate": 10, "errors": [], "elapsed_seconds": 229.6506543159485, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-03T05:54:29.174077"}
+{"status": "success", "processed_records_estimate": 8, "errors": [], "elapsed_seconds": 208.95742416381836, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-03T06:43:33.285802"}
