@@ -3145,3 +3145,4 @@
 {"status": "success", "processed_records_estimate": 10, "errors": [], "elapsed_seconds": 225.88492608070374, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-06T08:40:38.433917"}
 {"status": "success", "processed_records_estimate": 1, "errors": [], "elapsed_seconds": 222.46648573875427, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-06T09:29:53.894890"}
 {"status": "success", "processed_records_estimate": 1, "errors": [], "elapsed_seconds": 222.6450273990631, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-06T10:04:46.545145"}
+{"status": "restart", "processed_records_estimate": 0, "errors": ["Failed to recover session for page 1 after 3 attempts."], "elapsed_seconds": 386.12560415267944, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-06T10:21:58.917849"}
