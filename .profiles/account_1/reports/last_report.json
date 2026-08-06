@@ -1,11 +1,9 @@
 {
-  "status": "restart",
-  "processed_records_estimate": 0,
-  "errors": [
-    "Failed to recover session for page 1 after 3 attempts."
-  ],
-  "elapsed_seconds": 386.12560415267944,
+  "status": "success",
+  "processed_records_estimate": 2,
+  "errors": [],
+  "elapsed_seconds": 324.00468349456787,
   "airtable_table_name": "List",
   "account_index": 1,
-  "timestamp": "2026-08-06T10:21:58.917849"
+  "timestamp": "2026-08-06T11:10:18.091136"
 }
