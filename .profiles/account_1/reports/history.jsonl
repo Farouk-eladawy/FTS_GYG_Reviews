@@ -3387,3 +3387,4 @@
 {"status": "error", "processed_records_estimate": 0, "errors": ["login_failed"], "elapsed_seconds": 200.68498277664185, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-12T07:37:28.656152"}
 {"status": "success", "processed_records_estimate": 13, "errors": [], "elapsed_seconds": 225.6395399570465, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-12T08:27:16.142772"}
 {"status": "success", "processed_records_estimate": 13, "errors": [], "elapsed_seconds": 224.0392038822174, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-12T08:44:28.505862"}
+{"status": "restart", "processed_records_estimate": 0, "errors": ["Failed to recover session for page 1 after 3 attempts."], "elapsed_seconds": 431.05897307395935, "airtable_table_name": "List", "account_index": 1, "timestamp": "2026-08-12T09:20:03.374892"}
