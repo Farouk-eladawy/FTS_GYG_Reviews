@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 GetYourGuide → Airtable Sync (Multi-Account)
 
