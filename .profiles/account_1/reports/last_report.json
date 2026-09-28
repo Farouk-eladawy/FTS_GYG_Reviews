@@ -1,11 +1,9 @@
 {
-  "status": "error",
-  "processed_records_estimate": 0,
-  "errors": [
-    "login_failed"
-  ],
-  "elapsed_seconds": 166.41914296150208,
+  "status": "success",
+  "processed_records_estimate": 1,
+  "errors": [],
+  "elapsed_seconds": 279.0176522731781,
   "airtable_table_name": "List",
   "account_index": 1,
-  "timestamp": "2026-09-28T16:16:59.484370"
+  "timestamp": "2026-09-28T17:09:58.411130"
 }
